@@ -1,0 +1,137 @@
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:786px) {
+    .container {
+        width: 786px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.about-us {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url('../img/mobil/bg/m-about-us-ornament.png');
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .about-us {
+        background-image: url('../img/mobil/bg/m-about-us-ornament@2x.png');
+    }
+}
+
+@media screen and (min-width:375px) {
+    .about-us {
+        padding-top: 39px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (min-width:786px) {
+    .about-us {
+        padding-top: 42px;
+        padding-bottom: 50px;
+        background-image: url('../img/tablet/bg/t-about-us-ornament.png');
+    }
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .about-us {
+        background-image: url('../img/tablet/bg/t-about-us-ornament@2x.png');
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding-top: 96px;
+        padding-bottom: 80px;
+        background-image: url('../img/desktop/bg/d-about-us-ornament.png');
+    }
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .about-us {
+        background-image: url('../img/desktop/d-girl-and-boy@2x.jpg');
+    }
+}
+
+.about-us-title-h {
+    color: var(--white, #FCF9F9);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+@media screen and (min-width: 375px) {
+    .about-us-title-h {
+    font-size: 32px;
+    line-height: 1.38;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .about-us-title-h {
+    font-size: 44px;
+    line-height: 1.45;
+    }
+}
+
+.text-description-li {
+    color: rgba(252, 249, 249, 0.40);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+@media screen and (min-width: 375px) {
+    .text-description-li {
+    font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .text-description-li {
+    font-size: 16px;
+    }
+}
+
+.text-description-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+@media screen and (win-width:375px) {
+    .about-us-main-img {
+        width: 335px;
+        height: 499px;
+    }
+}
