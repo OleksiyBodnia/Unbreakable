@@ -70,11 +70,17 @@ body{
   font-style: normal;
 }
 
-@media screen and (max-width: 320px) and (min-width: 375px){
+@media screen and (min-width: 320px) and (max-width: 375px){
   .container{
     min-width: 320px;
     max-width: 375px;
   }
+}
+
+@media screen and (min-width: 375px) {
+  .container{
+    width: 375px;
+  }  
 }
 
 @media screen and (min-width: 768px) {
