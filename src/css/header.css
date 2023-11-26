@@ -12,8 +12,25 @@
         top: 0;
         right: 0;
         z-index: 999999;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+  @media screen and (min-width: 320px) and (max-width: 374px) {
+    .mobile-menu {
+        background-image: url(../img/mobil/bg/m-menu-ornament.png);
+    }
+  }  
+    
+  @media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+    .mobile-menu {
+        background-image: url(../img/mobil/bg/m-menu-ornament@2x.png);
     }
     
+  }
+      
     .is-open{
         visibility: visible;
         pointer-events: auto;
@@ -51,9 +68,7 @@
         justify-content: space-between;
     }
     
-    .mobile-menu-nav-container {
-        text-align: end;
-    }
+    
     
     
     .address-link-mobile {
@@ -78,11 +93,10 @@
     
     .mobile-menu-list {
         margin-top: 187px;
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         gap: 20px;
-        text-align: right;
-        right: 20px;
+        text-align: end;
     }
     
     .mobile-menu-link {
