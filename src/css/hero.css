@@ -15,7 +15,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .hero-section {
+
     padding-top: 100px;
     padding-bottom: 150px;
   }
@@ -157,6 +159,7 @@
 
 @media screen and (min-width: 1280px) {
   .star-hand-map {
+    margin-right: 100px;
     top: 14px;
     right: 100px;
     bottom: 0;

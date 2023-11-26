@@ -1,5 +1,9 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-x" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1818" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1818" d="M8 8l16 16"></path>
+</symbol>
 <symbol id="arrow" viewBox="0 0 32 32">
 <path fill="#ecd979" style="fill: var(--color1, #ecd979)" d="M27.766 17.957c-0.174-1.303-0.286-2.466-0.337-3.49-0.022-1.040 0.017-1.94 0.119-2.7l-25.293 14.603-1.197-2.073 25.293-14.603c-0.728-0.325-1.537-0.758-2.426-1.297-0.861-0.556-1.803-1.218-2.825-1.988l1.519-0.877c3.209 1.349 6.143 2.024 8.804 2.023l0.513 0.888c-1.35 2.271-2.233 5.149-2.65 8.636l-1.519 0.877z"></path>
 </symbol>
@@ -15,6 +19,11 @@
 </symbol>
 <symbol id="youtube" viewBox="0 0 32 32">
 <path fill="#fcf9f9" style="fill: var(--color2, #fcf9f9)" opacity="0.8" d="M24.24 6c-1.36-0.080-4.16-0.16-8.4-0.16h-0.56c-4.080 0-6.8 0.080-8.16 0.24-1.84 0.16-3.12 0.64-3.84 1.28-0.64 0.56-1.12 1.6-1.28 2.96-0.080 0.88-0.16 2.72-0.16 5.52v0.4c0 2.64 0.080 4.48 0.24 5.36 0.24 1.28 0.64 2.24 1.44 2.8 0.8 0.64 2.16 1.040 4.080 1.2 1.36 0.080 4.16 0.16 8.4 0.16h0.56c4.080 0 6.8-0.080 8.16-0.24 1.84-0.16 3.12-0.64 3.84-1.28 0.64-0.56 1.12-1.6 1.28-2.96 0.080-0.88 0.16-2.72 0.16-5.52v-0.4c0-2.64-0.080-4.48-0.24-5.36-0.24-1.28-0.64-2.24-1.44-2.8-0.8-0.64-2.16-1.040-4.080-1.2zM21.12 15.84l-8.8 5.28v-10.56l8.8 5.28z"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 48 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8.638 5.455h38.029"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8.638 24.849h38.029"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M20.116 15.151h26.551"></path>
 </symbol>
 </defs>
 </svg>
