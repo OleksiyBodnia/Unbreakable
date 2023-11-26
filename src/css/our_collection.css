@@ -170,10 +170,6 @@ background-image: url(../img/desktop/bg/d-our-collection-ornament@2x.png);
 
 @media screen and (min-width: 1280px){
 
-.container{
-    padding: 0;
-}
-
 .our-collection-container{
  padding-top: 150px;
  padding-bottom: 150px;
