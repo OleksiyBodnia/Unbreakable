@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 .about-us {
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -23,7 +21,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:375px) {
     }
 }
 
-@media screen and (min-width:786px) {
+@media screen and (min-width:768px) {
     .about-us {
         padding-top: 42px;
         padding-bottom: 50px;
@@ -32,9 +30,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width:375px) {
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width:786px),
-screen and (min-resolution: 2dppx) and (min-width:786px),
-screen and (min-device-pixel-ratio: 2) and (min-width:786px) {
+@media screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx) and (min-width:768px),
+screen and (min-device-pixel-ratio: 2) and (min-width:768px) {
     .about-us {
         background-image: url('../img/tablet/bg/t-about-us-ornament@2x.png');
     }
@@ -75,7 +73,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     }
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
     .about-us-title-h {
         font-size: 44px;
         line-height: 1.45;
@@ -96,7 +94,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     }
 }
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
     .text-description-li {
         font-size: 16px;
     }
@@ -121,26 +119,3 @@ screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     }
 }
 
-/*
-@media screen and (min-width:375px),
-(min-width:320px) and (max-width:374px) {
-    .about-us-main-img {
-        width: 335px;
-        height: 499px;
-    }
-}
-
-@media screen and (min-width:786px) {
-    .about-us-main-img {
-        width: 704px;
-        height: 545px;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .about-us-main-img {
-        width: 594px;
-        height: 545px;
-    }
-}*/
->>>>>>> Stashed changes
