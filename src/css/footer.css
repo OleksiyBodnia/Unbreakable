@@ -1,0 +1,114 @@
+.site_footer .container {
+    min-width: 320px;
+    max-width: 375px;
+    }
+.site_footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/mobil/bg/m-footer-ornament@2x.png);
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    padding-top: 40px;
+   
+  }
+.navigation{
+    padding-left: 20px;
+    padding-bottom: 40px;
+  
+}
+.navigation_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    row-gap: 25px;
+}
+.navigation_link{
+    width: 150px;
+}
+.navigation_link a{
+    margin-right: 20px;
+    color: #FCF9F9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.highlight {
+    color: yellow; 
+}
+.footer_paragraf{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 292px;
+    min-width: 320px;
+    max-width: 375px ;
+}
+.footer_text{
+    color: #FCF9F9;
+    font-size: 44px;
+    line-height: 54px; 
+    letter-spacing: -1.32px;
+    flex: 1;
+  }
+
+  @media screen and (min-width: 768px){
+.site_footer .container{
+    width: 768px;
+}
+.site_footer{
+    background-image: url(../img/tablet/bg/t-footer-ornament@2x.png);
+    background-position: right center;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
+}
+.navigation_list{
+    gap:25px;
+}
+.navigation_link{
+    width: auto;
+
+}
+.navigation_link a{
+    margin-right: 0;
+}
+.footer_paragraf{
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 32px;
+}
+.footer_text{
+    width: 521px;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -1.62px;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+    .site_footer .container{
+        width: 1280px ;
+    }
+    .site_footer{
+         background-image: url(../img/desktop/bg/d-footer-ornament@2x.png);
+         background-size: right;
+    }
+    .navigation{
+        padding-left: 100px;
+    }
+    .footer_paragraf{
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 426px;
+    }
+    .footer_text{
+        width: 764px;
+        font-size: 64px;
+        line-height: 74px;
+    }
+}
+    
+
+    
