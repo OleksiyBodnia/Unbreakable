@@ -6,13 +6,20 @@
     border-top: 1px solid rgba(252, 249, 249, 0.10);
     justify-content: space-between;
     align-items: center;
-    background-image: url(../img/mobil/bg/m-footer-ornament@2x.png);
+    background-image: url(../img/mobil/bg/m-footer-ornament.png);
     background-position: center bottom; 
     background-repeat: no-repeat; 
     background-size: contain;
     padding-top: 40px;
-   
   }
+  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .site_footer{
+    background-image: 
+      url(../img/mobil/bg/m-footer-ornament@2x.png);
+  }
+}
 .navigation{
     padding-left: 20px;
     padding-bottom: 40px;
@@ -27,9 +34,9 @@
 }
 .navigation_link{
     width: 150px;
+    /*padding-right:20px ;*/
 }
 .navigation_link a{
-    margin-right: 20px;
     color: #FCF9F9;
     font-size: 14px;
     font-weight: 400;
@@ -60,9 +67,22 @@
     width: 768px;
 }
 .site_footer{
-    background-image: url(../img/tablet/bg/t-footer-ornament@2x.png);
+    background-image: url(../img/tablet/bg/t-footer-ornament.png);
     background-position: right center;
+    background-repeat: no-repeat;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .site_footer{
+    background-image: 
+      url(../img/tablet/bg/t-footer-ornament@2x.png);
+      
+  }
+}
+.navigation{
+    padding-bottom: 80px;
 }
 .navigation_list{
     gap:25px;
@@ -92,11 +112,21 @@
         width: 1280px ;
     }
     .site_footer{
-         background-image: url(../img/desktop/bg/d-footer-ornament@2x.png);
+         background-image: url(../img/desktop/bg/d-footer-ornament.png);
          background-size: right;
+         background-repeat: no-repeat;
     }
+    @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .site_footer{
+    background-image: 
+      url(../img/desktop/bg/d-footer-ornament@2x.png);
+      }
+}
     .navigation{
         padding-left: 100px;
+        padding-bottom: 117px ;
     }
     .footer_paragraf{
         width: 100%;
