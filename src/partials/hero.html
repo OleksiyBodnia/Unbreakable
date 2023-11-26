@@ -1,18 +1,19 @@
-<section class="hero-section section">
-  <div class="container">
+<section class="hero-section">
+  <div class="container hero">
     <div class="reverse-box">
       <div class="main-and-button">
         <h1 class="main-text">
           Reviving the traditional
           <span class="akcent">Ukrainian</span> artistry in every stitch.
         </h1>
-
+        <div class="button-box">
         <button type="button" class="hero-button" id="Your order">
           Order
           <svg class="order-icon">
             <use href="./icons/sprite.svg#arrow"></use>
           </svg>
         </button>
+      </div>
       </div>
       <img
         class="girl-in-gray"
@@ -40,12 +41,15 @@
         class="map-egg"
         srcset="
           ./img/tablet/t-map-of-ukraine.jpg    139w,
-          ./img/tablet/t-map-of-ukraine@2x.jpg 278w
+          ./img/tablet/t-map-of-ukraine@2x.jpg 278w,
+          ./img/desktop/d-map-of-ukraine.jpg 142w,
+          ./img/desktop/d-map-of-ukraine@2x.jpg 284w
         "
-        sizes="(min-width: 768px) 157px"
+
+        sizes="(min-width: 1280px) 142px, (min-width: 768px) 139px, (min-width: 768px) 157px"
+
         src="./img/tablet/t-map-of-ukraine.jpg"
         alt="map of ukraine"
       />
-    </div>
-  </div>
+      </div>
 </section>

@@ -63,6 +63,7 @@ img {
   overflow: hidden;
 }
 
+
 body{
   background-color: #1C2225;
   font-family: "Manrope", sans-serif;
@@ -81,15 +82,14 @@ body{
   .container{
     width: 375px;
   }  
+
 }
 
 @media screen and (min-width: 768px) {
-
   .container {
     width: 768px;
     padding: 0 32px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
