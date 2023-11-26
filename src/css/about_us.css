@@ -6,7 +6,7 @@
 @media screen and (min-width:375px), 
     (min-width:320px) and (max-width:374px) {
     .about-us {
-        padding-top: 39px;
+        /* padding-top: 39px; */
         padding-bottom: 64px;
         margin: 0 auto;
         background-image: url('../img/mobil/bg/m-about-us-ornament.png');
@@ -23,7 +23,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:375px) {
 
 @media screen and (min-width:768px) {
     .about-us {
-        padding-top: 42px;
+        /* padding-top: 42px; */
         padding-bottom: 50px;
         margin: 0 auto;
         background-image: url('../img/tablet/bg/t-about-us-ornament.png');
@@ -43,7 +43,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:768px) {
         display: flex;
         flex-direction: row;
         gap: 50px;
-        padding-top: 96px;
+        /* padding-top: 96px; */
         padding-bottom: 80px;
         margin: 0 auto;
         align-items: center;
