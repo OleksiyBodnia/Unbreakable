@@ -1,0 +1,63 @@
+<!--------- ORDER --------->
+
+<section class="order-section section">
+    <div class="order-container container">
+        <div class="order-box">
+            <div class="order-background-box"></div>
+            <h2 class="order-title">
+                <span class="order-title-span">Your order</span>
+                 is our priority: Personalized approach and quality of service
+            </h2>
+            <form class="order-form" name="order-form">
+                <input 
+                    class="order-form-input" 
+                    type="text" 
+                    id="user_name" 
+                    name="user_name" 
+                    placeholder="Enter your full name" 
+                    pattern="[a-zA-Zа-яА-ЯіІєЄїЇйЙҐґ]+" 
+                    title="Artem" 
+                    required
+                />
+                <input 
+                    class="order-form-input" 
+                    type="email" 
+                    name="user_email" 
+                    placeholder="Enter your email" 
+                    id="user_email" 
+                    required
+                />
+                <textarea 
+                    class="order-form-comment" 
+                    name="user_comment" 
+                    placeholder="Comments" 
+                    id="user_comment" 
+                ></textarea>        
+                <button 
+                    class="order-form-submit-btn" 
+                    type="submit">
+                    Send   
+                    <svg class="order-icon">
+                        <use href="./icons/sprite.svg#arrow"></use>
+                    </svg>       
+                </button>
+            </form>
+        </div>
+        <img
+            class="order-content-img"
+            srcset="./img/tablet/t-women-in-waistcoat.jpg,
+                    .img/tablet/t-women-in-waistcoat@2x.jpg
+            "
+            sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px"
+            src="./img/tablet/t-women-in-waistcoat.jpg"  
+            alt="girl in waistcoat"
+        />
+            
+    </div>
+
+        
+
+    
+
+
+</section>
