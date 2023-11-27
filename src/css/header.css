@@ -20,8 +20,7 @@
         transition: transform 265ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
 
-    .mobile-menu.is-open,
-    .is-open.mobile-menu{
+    .mobile-menu.is-open {
         transform: translateX(0%);
         transition: transform 265ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -49,8 +48,7 @@
     .mobile-menu-cls-btn {
         width: 36px;
         height: 36px;
-        border-color: transparent;
-        border-radius: 50%;
+        border: none;
         top: 21px;
         right: 20px;
         margin: 0;
@@ -60,13 +58,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: border-color 240ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .mobile-menu-cls-btn:hover,
-    .mobile-menu-cls-btn:focus {
-        border-color: #1C2225;
-    }
     
     .mobile-menu-cls-icon {
       stroke: #1c2225;
@@ -100,17 +93,19 @@
         border-radius: 15px;
         border: 1px solid rgba(28, 34, 37, 0.10);
     }
+
     
-    .address-mobile-span {
-        color: #1C2225;
-        font-family: Manrope;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 14px; /* 116.667% */
-        text-transform: uppercase;
+    .address-mobile-span {     
+        font-size: 12px;   
+        line-height: 1.1; /* 116.667% */
+        transition: color 240ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
+     .address-mobile-span:hover,
+     .address-mobile-span:focus {
+        color: #fcf9f9;
+     }
+
     .mobile-menu-list {
         margin-top: 187px;
         display: flex;
@@ -120,14 +115,15 @@
     }
     
     .mobile-menu-link {
-        color: #1C2225;
-            font-family: Manrope;
             font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 18px;
-            /* 128.571% */
-            text-transform: uppercase;
+            line-height: 1.5;
+            transition: color 240ms cubic-bezier(0.4, 0, 0.2, 1), font-size 240ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .mobile-menu-link:hover,
+    .mobile-menu-link:focus {
+        color: #fcf9f9;
+        font-size: 18px;
     }
 
 
@@ -156,6 +152,12 @@
 
         .container-contact {
             gap: 79px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .mobile-menu {
+            display: none;
         }
     }
 
