@@ -6,7 +6,6 @@
 @media screen and (min-width:375px), 
     (min-width:320px) and (max-width:374px) {
     .about-us {
-        /* padding-top: 39px; */
         padding-bottom: 64px;
         margin: 0 auto;
         background-image: url('../img/mobil/bg/m-about-us-ornament.png');
@@ -18,12 +17,12 @@ screen and (min-resolution: 2dppx) and (min-width:375px),
 screen and (min-device-pixel-ratio: 2) and (min-width:375px) {
     .about-us {
         background-image: url('../img/mobil/bg/m-about-us-ornament@2x.png');
+        background-size: 250px 408px;
     }
 }
 
 @media screen and (min-width:768px) {
     .about-us {
-        /* padding-top: 42px; */
         padding-bottom: 50px;
         margin: 0 auto;
         background-image: url('../img/tablet/bg/t-about-us-ornament.png');
@@ -35,6 +34,7 @@ screen and (min-resolution: 2dppx) and (min-width:768px),
 screen and (min-device-pixel-ratio: 2) and (min-width:768px) {
     .about-us {
         background-image: url('../img/tablet/bg/t-about-us-ornament@2x.png');
+        background-size: 369px 484px;
     }
 }
 
@@ -43,7 +43,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width:768px) {
         display: flex;
         flex-direction: row;
         gap: 50px;
-        /* padding-top: 96px; */
         padding-bottom: 80px;
         margin: 0 auto;
         align-items: center;
@@ -56,6 +55,7 @@ screen and (min-resolution: 2dppx) and (min-width:1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     .about-us {
         background-image: url('../img/desktop/bg/d-about-us-ornament@2x.png');
+        background-size: 385px 484px;
     }
 }
 
@@ -84,7 +84,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width:1280px) {
     color: rgba(252, 249, 249, 0.40);
     font-style: normal;
     font-weight: 400;
-    line-height: 1;
+    line-height: normal;
     letter-spacing: -0.04em;
 }
 
