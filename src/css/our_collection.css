@@ -5,7 +5,6 @@ padding-bottom: 80px;
 background-image: url(../img/mobil/bg/m-our-collection-ornament.png);
 background-repeat: no-repeat;
 background-position: 0px 378px;
-
 }
 
  
@@ -32,7 +31,6 @@ line-height: 1;
 letter-spacing: 0.05em;
 text-transform: uppercase;
 margin-bottom: 8px;
-
 }
 
 .collection-price{
@@ -181,8 +179,7 @@ background-image: url(../img/desktop/bg/d-our-collection-ornament@2x.png);
 background-repeat: no-repeat;
 background-position: 0px 371px;
 width: auto;
-
-    }
+}
 
 
 .collection-photo{
