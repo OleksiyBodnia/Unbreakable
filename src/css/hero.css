@@ -144,7 +144,7 @@
 @media screen and (min-width: 768px) {
   .star-hand-map {
     position: absolute;
-    z-index: 99999999999999999;
+    /* z-index: 99999999999999999; */
     top: -26px;
     right: 32px;
     bottom: 0;
