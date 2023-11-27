@@ -34,7 +34,12 @@
 }
 .navigation_link{
     width: 150px;
+    transition: color 265ms cubic-bezier(0.4, 0, 0.2, 1);
     /*padding-right:20px ;*/
+}
+.navigation_link:hover,
+.navigation_link:focus{
+    color: #ECD979;
 }
 .navigation_link a{
     color: #FCF9F9;
@@ -43,6 +48,15 @@
     line-height: 18px; 
     text-transform: uppercase;
     text-decoration: none;
+}
+.footer-link {
+    transition: color 265ms cubic-bezier(0.4, 0, 0.2, 1);
+    /*padding-right:20px ;*/
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #ECD979;
 }
 .highlight {
     color: yellow; 
@@ -138,7 +152,10 @@
         font-size: 64px;
         line-height: 74px;
     }
+        
 }
+
+
     
 
     
