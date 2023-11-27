@@ -10,66 +10,55 @@
 }
 
 .order-container {
-    padding-bottom: 80px;
-    padding-top: 630px;
     position: relative;
-    background-image: url("../img/mobil/bg/m-girl-in-green.jpg");
+    background-image: url(../img/mobil/bg/m-girl-in-green.jpg);
     background-position: top;
     background-repeat: no-repeat;
+    padding-bottom: 80px;
+    padding-top: 630px;
+    
+    @media screen and (min-width: 768px){
+        padding-top: 876px;
+        padding-bottom: 800px;
+        background-image: url("../img/tablet/bg/t-girl-in-green.jpg"), url("../img/tablet/t-women-in-waistcoat.jpg"), url("../img/tablet/bg/t-your-order-ornament.png");
+        background-position: top , right 20px bottom 180px, left bottom 100px;
+        background-repeat: no-repeat;
+        @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+            background-image:
+                url(../img/tablet/bg/t-girl-in-green@2x.jpg), url("../img/tablet/t-women-in-waistcoat@2x.jpg"), url("../img/tablet/bg/t-your-order-ornament@2x.png");
+            background-size: 768px 776px, 638px 521px, 335px 484px;
+        }
+    }
     
     @media screen and (min-width: 1280px) {
         display: flex;
         justify-content: end;
         margin-bottom: 150px;
     }
-}
 
-@media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .order-container {
-        background-image:
-            url(../img/mobil/bg/m-girl-in-green@2x.jpg);
-        background-size: 375px 550px;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .order-container{
-        padding-top: 876px;
-        padding-bottom: 800px;
-        background-image: url("../img/tablet/bg/t-girl-in-green.jpg"), url("../img/tablet/t-women-in-waistcoat.jpg"), url("../img/tablet/bg/t-your-order-ornament.png");
-        background-position: top , right 20px bottom 180px, left bottom 100px;
-        background-repeat: no-repeat;
-    }
-        @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-        screen and (min-resolution: 2dppx) and (min-width: 768px),
-        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-            .order-container {
-                background-image:
-                    url(../img/tablet/bg/t-girl-in-green@2x.jpg), url("../img/tablet/t-women-in-waistcoat@2x.jpg"), url("../img/tablet/bg/t-your-order-ornament@2x.png");
-                background-size: 768px 776px, 638px 521px, 335px 484px;
-            }
-        }
-}
-
-@media screen and (min-width: 1280px){
-    .order-container{
+    @media screen and (min-width: 1280px){
         padding-top: 936px;
         padding-bottom: 150px;
         margin-bottom: 0;
         background-image: url("../img/desktop/bg/d-girl-in-green.jpg"), url("../img/desktop/d-women-in-waistcoat.jpg"), url("../img/desktop/bg/d-your-order-ornament.png");
         background-position: top, left 100px bottom 269px, left 0 bottom 150px;
-    }
         @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
         screen and (min-resolution: 2dppx) and (min-width: 1280px),
         screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-            .order-container {
-                background-image:
-                    url("../img/desktop/bg/d-girl-in-green@2x.jpg"), url("../img/desktop/d-women-in-waistcoat@2x.jpg"), url("../img/desktop/bg/d-your-order-ornament@2x.png");
-                background-size: 1282px 776px, 524px 521px, 289px 484px;
-            }
+            background-image:
+                url("../img/desktop/bg/d-girl-in-green@2x.jpg"), url("../img/desktop/d-women-in-waistcoat@2x.jpg"), url("../img/desktop/bg/d-your-order-ornament@2x.png");
+            background-size: 1282px 776px, 524px 521px, 289px 484px;
         }
+    }
+
+    @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+        background-image: url(../img/mobil/bg/m-girl-in-green@2x.jpg);
+        background-size: 375px 550px;
+    }
 }
 
 .order-box {
@@ -80,7 +69,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     @media screen and (min-width: 768px) {
         max-width: 508px;
     }
-
 }
 
 .order-title {
