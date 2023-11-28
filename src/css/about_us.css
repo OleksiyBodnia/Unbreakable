@@ -2,6 +2,9 @@
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+.hero-button{
+    width: 168px;
+}
 
 @media screen and (min-width:375px), 
     (min-width:320px) and (max-width:374px) {
