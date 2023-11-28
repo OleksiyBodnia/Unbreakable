@@ -1,5 +1,6 @@
 .testimonials--list {
     display: flex;
+    /* position: relative; */
 }
 
 .testimonials-container {
@@ -18,18 +19,25 @@
     letter-spacing: -0.03em;
 }
 
-.testimonials--clients {
+/* .testimonials--clients {
+    position: relative;
+} */
+/* .testimonials--foto{
+    position: absolute;
+    top: 0;
+    
+} */
+.testimonials--clients{
     position: relative;
 }
 
-.testimonials--foto {
+.testimonials--foto{
     position: absolute;
-    top: 0;
+    top: -86px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: -32px;
-}
 
+}
 .testimonials--titel--text {
     color: var(--white, #FCF9F9);
     text-align: center;
@@ -39,7 +47,7 @@
     font-weight: 600;
     line-height: 1.5;
     /* 150% */
-    margin-top: 46px;
+    /* margin-top: 46px; */
     margin-bottom: 8px;
 }
 
@@ -53,10 +61,12 @@
     line-height: normal;
 }
 
+
+
 @media (max-width: 767px) {
     .testimonials--list {
         width: 335px;
-        padding: 0px 18px 18px 18px;
+        padding: 54px 18px 18px 18px;
         border-radius: 4px;
         border: 1px solid rgba(252, 249, 249, 0.10);
     }
@@ -64,6 +74,7 @@
     .testimonials--list .testimonials--clients:nth-child(n+2) {
         display: none;
     }
+    
 }
 
 /* Стилі для планшетних пристроїв */
@@ -82,7 +93,7 @@
 
     .testimonials--clients {
         width: 336px;
-        padding: 0px 18px 18px 18px;
+        padding: 54px 18px 18px 18px;
         border-radius: 4px;
         border: 1px solid rgba(252, 249, 249, 0.10);
     }
@@ -97,6 +108,17 @@
         /* 145.455% */
         letter-spacing: -0.03em;
     }
+
+        .testimonials--clients {
+            position: relative;
+        }
+        .testimonials--foto {
+            position: absolute;
+            top: -32px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+        }
 }
 
 @media screen and (min-width: 1280px) {
@@ -110,7 +132,7 @@
 
     .testimonials--clients {
         width: 343px;
-        padding: 0px 18px 18px 18px;
+        padding: 54px 18px 18px 18px;
         border-radius: 4px;
         border: 1px solid rgba(252, 249, 249, 0.10);
     }
@@ -125,5 +147,15 @@
         /* 145.455% */
         letter-spacing: -0.03em;
     }
+        .testimonials--clients {
+            position: relative;
+        }
+        .testimonials--foto {
+            position: absolute;
+            top: -32px;
+            left: 50%;
+            transform: translateX(-50%);
+    
+        }
 }
 

@@ -22,7 +22,7 @@
 }
 .navigation{
     /* padding-left: 20px; */
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   
 }
 .navigation_list {
@@ -96,7 +96,7 @@
   }
 }
 .navigation{
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 .navigation_list{
     gap:25px;
@@ -140,7 +140,7 @@
 }
     .navigation{
         /* padding-left: 100px; */
-        padding-bottom: 117px ;
+        margin-bottom: 117px ;
     }
     .footer_paragraf{
         width: 100%;

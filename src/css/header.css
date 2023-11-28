@@ -166,16 +166,15 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* MOBILE-FIRST */
 
 .header {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 .page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 6px;
-    padding-bottom: 6px;
+
 }
 
 .logotype {
